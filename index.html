@@ -11,6 +11,10 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,400i" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
   <header role="banner">
     <div class="wrapper pad-t-1-2 pad-b-1-2 gutter-1-2">
@@ -19,18 +23,18 @@
     <div class="nav">
       <div class="wrapper gutter-1-2">
         <nav role="navigation" id="nav" tabindex="0">
-        <ol class="mega list-group-inline push-0">
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Prices</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
-        </ol>
+          <ol class="mega list-group-inline push-0">
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Prices</a></li>
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
+            <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
+          </ol>
         </nav>
       </div>
     </div>
   </header>
-
+  <main role="main" id="main" tabindex="0">
     <div class="about push" id="about">
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/shrubs.jpg" alt="picture of multiple shrubs">
@@ -41,8 +45,8 @@
           <p class="mega push-0">Is there anywhere in this town where we could buy a shrubbery!?</p>
           <p class="mega push-0 max-length not-centered">Yes, shrubberies are my trade—I am a shrubber. My name is Roger the Shrubber. I arrange, design, and sell shrubberies.</p>
         </div>
+      </div>
     </div>
-  </div>
 
     <div>
       <div class="wrapper gutter-1-2">
@@ -159,12 +163,12 @@
         </form>
       </div>
     </div>
-
-  <div class="footer pad-t-1-2 pad-b-1-2">
+  </main>
+  <footer class="footer pad-t-1-2 pad-b-1-2" role="contentinfo">
     <div class="wrapper gutter-1-2">
       <small class="push-0 micro">Some quotes © <i>Monty Python and the Holy Grail</i>, 1975.</small>
     </div>
-  </div>
+  </footer>
 
 </body>
 </html>
