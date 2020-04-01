@@ -19,7 +19,7 @@ a:hover {
   color: #113c00;
 }
 
-.masthead {
+header {
   background-color: #568c36;
 
   color: #fff;
@@ -87,7 +87,7 @@ td {
 @media only screen and (min-width: 35em) {
 
   .about-content {
-    bottom: 0;
+    top: 152px;
     position: absolute;
     width: 100%;
 
